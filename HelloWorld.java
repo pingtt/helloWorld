@@ -11,6 +11,8 @@ public class HelloWorld{
 		//Calling a static function
 		if (arg.length > 0)
 			System.out.println("Hello world! " + arg[0]);
+		else if (args.length < 2)
+			System.out.println("Hello world! " + arg[0] + " " + arg[1]);
 		else
 			System.out.println("Hello world!");
 	}	
